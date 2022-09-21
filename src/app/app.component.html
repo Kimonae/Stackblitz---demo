@@ -1,3 +1,7 @@
 {{ name }}
 <!-- affichage d'uen variable en html String interpolation -->
 <p>Start editing to see some magic happen :)</p>
+
+<ul>
+  <li *ngFor="let i of posts">{{ i.title }}</li>
+</ul>
